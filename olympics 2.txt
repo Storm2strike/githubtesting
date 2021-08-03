@@ -1,0 +1,114 @@
+</html>
+<head><title>Cheer4India</title>
+
+
+<style>          /*comment-this type of CSS inclusion(inside the head tag of the webpage)is called Internal CSS*/
+
+p
+{
+color:blue;
+text align:right;
+}
+.mid
+{
+colour:red;
+text-align:center;
+}
+h1
+{
+color:blue;
+align:right;
+}
+</style>
+
+
+<link rel="stylesheet"type="text/css"href="olympics1.css>         
+</head>
+<body>
+<h1 class=mid>Cheer4India Campaign</h1>                  
+<p class=mid>Cheer4Ubdua</p>
+
+<p> India's athletes have gone to Tokyo to make our country proud.
+They worked hard to make it to the olympic stage and represent our country against the world's best nations. So let us come together and wish these athletes good luck and provide them with our support. 
+So we at Tagore International School, Vasant Vihar, New Delhi wish them all the best from our side. Jai Hind! 
+<img scr="E:\nidhir\Nidhir's documents\Cheer4India campaign Tokyo Olympics 2020\India-Hockey-Tw-367x246.jpg" height="300" width="300"
+
+
+</head>
+<body>
+<h1>Cheer4India</h1>
+<div class="logo">
+<div class="ring blue"></div>              
+<div class="ring yellow"></div>
+<div class="ring black"></div>
+<div class="ring green"></div>
+<div class="ring red"></div>
+</div>
+
+<p style="postion: fixed;bottom:0;colour:red;font-family:sans serif;"><strong>Hover the logo to see the magic happen.</strong><br/>Doesn't work corrently on fireforx because of a bug with preserve-3d.</p>
+</html>
+</body>
+
+div
+text-colour:black;
+}
+
+.logo{
+transform-style:preserve-3d;
+width:160vh;
+height:70vh;
+postion:relative;
+marginL15vh auto;
+}
+
+.ring{
+width:40vh;
+height:40vh;
+border-radius:50%;
+bprder:solid blue4vh;
+position:absolute;
+background:transparent;
+}
+
+.blue{
+border-color:#0085c7;
+transform:rotateX(-45deg)scaleY(1.4142);
+}
+
+.yellow{
+border-colour:#4c300;
+left:28vh;
+top:18vh;
+transform:rotateX(0deg);
+}
+
+.black{
+border-colour:black;
+left:56vh;
+transform:rotateX(45deg)scaleY(1.4142);
+
+}
+
+.green{
+border-colour:#009f3d;
+top:18vh;
+left:84vh;
+transform: translateZ(20vh)rotateX(70deg)scaleY(2.9238);
+
+}
+
+.red{
+border-colour:#df0024;
+left:112vh
+transform:translateZ(-32vh)rotateX(80deg)scaleY(5.7588);
+
+}
+
+/* For DEMO only*/
+.logo{
+transform:rotateY(0deg);
+transition:transform1s;
+}
+.logo:hover{
+transform:rotateY(45deg);
+}
